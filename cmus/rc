@@ -1,0 +1,10 @@
+set altformat_current= %F 
+set altformat_playlist= %f%= %d 
+set altformat_title=%f
+set altformat_trackwin= %f%= %d 
+set format_current= Now playing: %t by %a from %l%= %y 
+set format_playlist= %-20%a %-30%l %t%= %y %d 
+set format_playlist_va= %-20%a %-30%l %t%= %y %d
+set format_title=%a - %l - %t
+set format_trackwin=%3n. %t%= %y %d 
+set format_trackwin_va=%3n. %t (%a)%= %y %d
