@@ -1,10 +1,11 @@
 /* DEXTER STYLESHEET FOR FIREFOX */
 
 /* Toolbars */
-
 #nav-bar {
     background-color: #333333 !important;
     background-image: none !important;
+    border-top-width: 0px !important;
+    max-height: 30px !important;
 }
 
 #urlbar-container {
@@ -19,7 +20,8 @@
     padding-left: 4px !important;
 }
 
-#identity-box {
+#identity-box,
+#urlbar-reload-button {
     display: none !important;
 }
 
@@ -30,7 +32,8 @@
 }
 
 #tabbrowser-tabs {
-    min-height: 0 !important;
+    max-height: 25px !important;
+    min-height: 25px !important;
     background: transparent !important;
 }
 
@@ -65,7 +68,62 @@
 
 /* Buttons */
 
+.tabs-newtab-button {
+    list-style-image: url('https://raw.githubusercontent.com/jackdpage/dexter/master/icon/material/add.png') !important;
+}
+
+.tabs-newtab-button:hover {
+    background-image: none !important;
+    list-style-image: url('https://raw.githubusercontent.com/jackdpage/dexter/master/icon/material/add-green.png') !important;
+}
+
+.tab-close-button {
+    margin-right: 2px !important;
+    list-style-image: url('https://raw.githubusercontent.com/jackdpage/dexter/master/icon/material/clear.png') !important;
+}
+
+.tab-close-button:hover {
+    list-style-image: url('https://raw.githubusercontent.com/jackdpage/dexter/master/icon/material/clear-red.png') !important;
+
+}
+
+.close-icon {
+    background-image: url('https://raw.githubusercontent.com/jackdpage/dexter/master/icon/material/clear.png') !important;
+}
+
+.close-icon:hover {
+    background-image: url('https://raw.githubusercontent.com/jackdpage/dexter/master/icon/material/clear-red.png') !important;
+}
+
 #back-button,
 #forward-button {
     display: none !important;
+}
+
+#bookmarks-menu-button {
+    background-image: none !important;
+}
+    
+.toolbarbutton-menubutton-button {
+    list-style-image: url('https://raw.githubusercontent.com/jackdpage/dexter/master/icon/material/grade.png') !important;
+    -moz-image-region: rect(0px 18px 18px 0px) !important;
+}
+
+.toolbarbutton-menubutton-dropmarker {
+    display: none !important;
+}
+
+#downloads-button {
+    list-style-image: url('https://raw.githubusercontent.com/jackdpage/dexter/master/icon/material/arrow_downward.png') !important;
+    -moz-image-region: rect(0px 18px 18px 0px) !important;
+}
+
+#PanelUI-button {
+    border-left: none !important;
+}
+
+#PanelUI-menu-button {
+    list-style-image: url('https://raw.githubusercontent.com/jackdpage/dexter/master/icon/material/menu.png') !important;
+    -moz-image-region: rect(0px 18px 18px 0px) !important;
+    padding: 0 0 0 0 !important;
 }
