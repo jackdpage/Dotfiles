@@ -1,2 +1,0 @@
-# dexter
-dexter is rice
